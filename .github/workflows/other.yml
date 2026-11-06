@@ -8,6 +8,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - run: cd other
-    - run: ls
-    - run: make check
+    - run: cd other && make check
